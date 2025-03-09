@@ -8,7 +8,7 @@ app.get("/",(req,res)=>{
     res.send("hello world")
 })
 app.get("/g",(req,res)=>{
-    res.send("hello world")
+    res.send("hello world gurvinder")
 })
 app.listen(process.env.PORT,()=>{
     console.log("server started",port,process.env.PORT)
